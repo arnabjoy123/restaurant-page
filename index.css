@@ -1,0 +1,100 @@
+body{
+    margin: auto;
+    background-image: url("istockphoto-1173579665-612x612new.jpg");
+    background-size: cover;
+}
+
+div{
+    max-width: 45%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+
+h1{
+    color: #f2f2f2; 
+    background: #ff4a4a; 
+    font-size: 75px; 
+    line-height: 74px; 
+    font-weight: 700; 
+    font-family: 'Libre Baskerville', serif; 
+}
+
+button{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+
+
+img{
+    border-radius: 15px;
+    border: 8px solid rgb(250, 239, 119);
+    max-width: 40%;
+}
+
+header{
+    text-transform: capitalize;
+    color: #d54d7b; 
+    font-family: "Great Vibes", cursive;    
+    font-weight: normal; 
+    text-shadow: 0 1px 1px #fff; 
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted rgb(254, 225, 76);
+}
+
+article{
+    color: #fb8728; 
+    font-family: "Great Vibes", cursive;    
+    font-weight: normal; 
+    text-shadow: 0 1px 1px #fff; 
+}
+
+section{
+    margin: 5px;
+}
+
+#container{
+    margin: 1%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#btn-container{
+    margin-left: 27%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.none{
+    display: none;
+}
